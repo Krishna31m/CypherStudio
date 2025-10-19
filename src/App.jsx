@@ -1345,7 +1345,7 @@ const App = () => {
         // to allow simultaneous calls (e.g., Terminal Simulation and an explicit AI Tool).
         // The individual components manage their own loading/output states.
 
-        const apiKey = "AIzaSyCo6axk1QFoINp9-CyrlGDVIIKbFfjsxZk"; 
+        const apiKey = "YOUR_API_KEY"; 
         const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
         const payload = {
