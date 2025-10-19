@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure Inter font is used for a modern look */
+body {
+    font-family: 'Inter', sans-serif;
+}
